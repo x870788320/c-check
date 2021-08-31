@@ -1,7 +1,11 @@
 
 create_react_app 创建的项目
 
-UI选用antd
+使用react hooks 代码风格
+
+手机端项目
+
+UI选用antd-mobile
 
 配置less
 

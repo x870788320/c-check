@@ -1,0 +1,87 @@
+
+
+.IconListCom{
+    .IconListSwipeContainer{
+        margin: 5px 0;
+
+        // .IconListSwiperBtn{
+        //     padding: '0 24px'; 
+        //     background: '#5AA9E6'; 
+        //     color: 'white'; 
+        //     display: 'block';
+        //     display: flex;
+        //     flex-direction: column;
+        // }
+
+        .IconListSwiperBtn::before{
+            content: "";
+            display: block;
+            width: 24px;
+            height: 24px;
+            margin-bottom: 4px;
+            background: url('../../assets/img/收藏.svg') no-repeat;
+            background-size: contain;
+        }
+
+        .IconListSwiperBtn2::before{
+            content: "";
+            display: block;
+            width: 24px;
+            height: 24px;
+            margin-bottom: 4px;
+            background: url('../../assets/img/下载.svg') no-repeat;
+            background-size: contain;
+        }
+        
+        .IconListComItem{
+            height: 100px;
+            padding: 10px;
+            text-align: left;
+            background: #fff;
+            box-sizing: border-box;
+            display: flex;
+
+            .IconListItemLeft{
+                width: 70px;
+                // background: burlywood;
+                margin-right: 10px;
+                padding: 2px;
+                border: 1px solid #ccc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img{
+                    width: 66px;
+                }
+            }
+
+            .IconListItemRight{
+                width: calc( 100% - 90px);
+                color: #6A6A6A;
+                font-weight: 400;
+                line-height: 26px;
+                flex: 1;
+
+                .IconListItemRightTitle{
+                    font-family: PingFangSC-Semibold;
+                    font-size: 14px;
+                    color: #626161;
+                    font-weight: 600;
+                }
+
+                .IconListItemRightContent{
+                    display: flex;
+
+                    div:nth-child(1){
+                        min-width: 42px;
+                    }
+                    div:nth-child(2){
+                        flex:1;
+                    }
+                }
+            }
+        }
+    }
+    
+}

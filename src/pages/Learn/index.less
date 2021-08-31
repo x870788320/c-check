@@ -1,0 +1,76 @@
+
+
+.Learn{
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+    .LearnMain{
+        // min-height: 100%;
+        padding: 20px;
+
+        .LearnMainBack1{
+            width: calc(100% - 40px);
+            height:  calc(100% - 40px);
+            position: absolute;
+            top: 16px;
+            transform:rotate(-7deg);
+            background-image: linear-gradient(224deg, rgba(51,237,236,0.80) 0%, rgba(49,181,250,0.80) 98%);
+            border: 1px solid #9FFFF0;
+            border-radius: 8px;
+        }
+        .LearnMainBack2{
+            width: calc(100% - 40px);
+            height:  calc(100% - 40px);
+            position: absolute;
+            top: 4px;
+            transform:rotate(-18deg);
+            background-image: linear-gradient(41deg, #6BFF7B 4%, #FFCA2F 97%);
+            border: 1px solid #9FFFF0;
+            border-radius: 8px;
+        }
+
+        .LearnMainContent{
+            width: calc(100% - 40px);
+            height:  calc(100% - 40px);
+            // padding: 22px 22px 0;
+            position: absolute;
+            background: rgba(255,255,255,0.90);
+            border: 1px solid #FFFFFF;
+            box-shadow: 0 0 4px 0 rgba(210,210,210,0.50);
+            border-radius: 8px;
+
+            .learnNullMain{
+                height: 90%;
+                padding: 80px 0;
+                text-align: center;
+                font-size: 15px;
+            }
+            
+            .LearnMainExprefooter{
+                height: 10%;
+                border-top: 1px solid #E7E7E7;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 14px;
+                color: #5D5D5D;
+                margin: 0 22px;
+
+
+                .LearnMainfooterTime{
+                    color: #0091FF;
+                }
+            }
+        }
+    }
+}
+
+.am-modal-body{
+    background: #fff;
+}
+
+.am-list-item .am-list-line .am-list-content{
+    text-overflow: clip;
+    white-space: normal;
+}

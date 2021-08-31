@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="40px" viewBox="0 0 22 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>模考标签</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-测试" transform="translate(-381.000000, -528.000000)">
+            <g id="模考标签" transform="translate(381.000000, 528.000000)">
+                <rect id="矩形" fill="#000000" fill-rule="nonzero" opacity="0" x="0" y="0" width="22" height="22"></rect>
+                <path d="M20.0287667,39.9893183 C19.8243195,39.9919646 19.6247479,39.8760284 19.4591284,39.6584008 L11,34.1117554 L2.52947877,39.6532302 C2.23722705,40.0489535 1.84690966,40.1110042 1.52121903,39.8135184 C1.20279965,39.5112959 1.00230836,38.9146229 0.999873729,38.2623423 L0.999873729,1.75799953 C0.999873729,1.11072197 0.999873729,0.524722132 0.999873729,0 L21,0 C21,0.524722132 21,1.11072197 21,1.75799953 L21,38.2313188 C20.9968757,39.2018923 20.563409,39.9864969 20.0287667,39.9893183 Z" id="路径" fill="#349AC6" fill-rule="nonzero"></path>
+                <text id="模-考" font-family="PingFangSC-Regular, PingFang SC" font-size="12" font-weight="normal" line-spacing="15" fill="#FFFFFF">
+                    <tspan x="5" y="16">模</tspan>
+                    <tspan x="5" y="31">考</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

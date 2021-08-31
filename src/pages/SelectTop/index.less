@@ -1,0 +1,80 @@
+
+.SelectTop{
+
+    .SelectTopMain{
+        margin-top: 4px;
+
+        .SelectTopMainItem{
+            height: 60px;
+            padding: 0 30px;
+            margin: 6px 0;
+            line-height: 60px;
+            background: #FFFFFF;
+            box-shadow: 0 -1px 4px 0 rgb(225 225 225 / 50%);
+            display: flex;
+            justify-content: space-between;
+
+            .SelectTopItemRight{
+                flex: 1;
+                text-align: end;
+                width: 0;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                
+                img{
+                    transform:rotate(180deg);
+                }
+            }
+            img{
+                margin: 0 10px;
+                vertical-align: text-bottom;
+
+            }
+        }
+    }
+
+    .SelectTopSubCon{
+        margin-top: 80px;
+        padding: 0 40px;
+    }
+}
+
+.SelectTopModalContainer{
+    
+    background: rgba(255,255,255,0.90);
+    box-shadow: 0 0 4px 0 rgba(210,210,210,0.50);
+    border-radius: 8px;
+
+    div{
+        background: rgba(255,255,255,0.90);
+        
+    }
+}
+
+.SelectTopModalCon{
+    // width: 300px;
+    // height: 300px;
+    // background: rgba(255,255,255,0.90);
+    // border: 1px solid #FFFFFF;
+
+    .SelectTopModalTop{
+        font-size: 16px;
+        color: #B01B1B;
+        letter-spacing: 0.19px;
+        text-align: center;
+        font-weight: 600;
+        height: 46px;
+        line-height: 30px;
+        border-bottom: 1px solid #B01B1B;
+    }
+    .SelectTopModalCenter{
+        font-size: 14px;
+        color: #5D5D5D;
+        letter-spacing: 0.17px;
+        line-height: 24px;
+        font-weight: 400;
+        min-height: 180px;
+        padding: 8px 0;
+    }
+}

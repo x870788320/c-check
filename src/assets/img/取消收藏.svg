@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>取消收藏</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-我的收藏" transform="translate(-267.000000, -361.000000)" fill-rule="nonzero">
+            <g id="编组-4" transform="translate(0.000000, 120.000000)">
+                <g id="取消收藏" transform="translate(267.000000, 241.000000)">
+                    <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                    <polyline id="形状" fill="#FFFFFF" points="6.58886773 21 11.4193289 19.0458007 12.5008862 18.6089939 13.5824434 19.0458007 18.4130359 20.9983272 18.2692134 15.6593922 18.2401009 14.6020949 18.9028596 13.7779448 22 9.92019043 17.0164936 8.41168688 16.0532896 8.12058078 15.4815442 7.29626672 12.5008862 3 9.52216472 7.29626672 8.95041929 8.12058078 7.98714966 8.41168688 3 9.92206012 6.09723888 13.7779448 6.75999752 14.6020949 6.73088509 15.6593922 6.58886773 21"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

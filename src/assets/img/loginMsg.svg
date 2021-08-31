@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>短信</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="账号登录" transform="translate(-375.000000, -15.000000)" fill-rule="nonzero">
+            <g id="短信" transform="translate(375.000000, 15.000000)">
+                <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <path d="M20,20 L4,20 C2.8954305,20 2,19.1045695 2,18 L2,8 L2,8 L11.5238095,14 C11.736,14.1365201 12.264,14.1365201 12.4761905,14 L22,8 L22,18 C22,19.1045695 21.1045695,20 20,20 Z M22,4 C22,4.62145233 21.9992939,5.0185799 22,5 L22,6 L11.5238095,12 L2,6 L2,4 L21.047619,4 C21.0165196,3.9988986 21.3797417,3.9988986 22,4 Z" id="形状" fill="#C7E7FF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

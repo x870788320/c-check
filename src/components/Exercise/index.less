@@ -1,0 +1,78 @@
+
+
+.LearnMainExpreCon{
+    height: 90%;
+    font-size: 14px;
+    color: #5D5D5D;
+    line-height: 30px;
+    font-weight: 600;
+    text-align: left;
+    overflow: auto;
+    padding: 22px 22px 0;
+
+    .LearnMainExpreNum{
+        font-size: 16px;
+        color: #5D5D5D;
+        font-weight: 600;
+    }
+    
+    
+    .LearnMainExpreSelect{
+
+        
+        .LearnMainRadio{
+            background: rgba(0,0,0,0);
+            border-radius: 8px;
+
+            div{
+                border:0;
+            }
+            div::after{
+                background: rgba(0,0,0,0);
+            }
+        }
+        .LearnMainSelected{
+            background: #0091FF;
+
+            div{
+                color: #fff;
+
+            }
+            .am-radio.am-radio-checked .am-radio-inner:after{
+                border-color:#fff;
+
+            }
+            .am-list-item:not(:last-child) .am-list-line::after{
+                border-color:#fff;
+
+            }
+        }
+
+        &>div{
+            margin-top: 2px;
+        }
+
+        .blankContailer{
+            .am-list-item{
+                background: rgba(0,0,0,0);
+    
+                .am-input-control{
+                    border-bottom: 1px solid #999;
+                }
+            }
+
+        }
+        .type5Contailer{
+        }
+    }
+    .LearnMainLookAnswer{
+        margin-top: 30px;
+    }
+    .LearnMainAnswerShow{
+        padding: 0 16px;
+    }
+}
+
+.am-list-item .am-list-line .am-list-content{
+    font-size: 14px;
+}

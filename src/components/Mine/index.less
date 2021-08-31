@@ -1,0 +1,70 @@
+
+
+
+
+.am-modal-popup-myset{
+    height: calc( 100% - 96px );
+    width: 54%;
+    top: 40px;
+    right: 0;
+    left: unset;
+
+    .am-modal-body{
+        background: #2E2E2E;
+       
+        .headerMyCon{
+            height: 30%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+    
+    
+            .headerMyPic{ 
+                width: 88px;
+                height: 88px;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+    
+            .headerMyName{ 
+                width: 100%;
+                font-size: 16px;
+                color: #FFFFFF;
+                font-weight: 600;
+                margin-top: 10px;
+            }
+        }
+    
+        .headerMyItem{
+            height: 40px;
+            line-height: 40px;
+            background: #4D4D4D;
+            color: #fff;
+            text-align: left;
+            text-indent: 2em;
+            margin: 1px 0;
+        }
+     
+    }
+    
+}
+
+.mySetTransiton{
+    animation: 1s example linear infinite normal;
+    -webkit-animation: 1s example linear infinite normal;
+}
+
+
+@keyframes DD {
+    0%   {transform: translateX(0px)}
+    100% {transform: translateX(100%)}
+  }
+  
+
+  @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
